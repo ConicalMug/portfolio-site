@@ -10,21 +10,34 @@ body a {
 
 .header {
   background-color: #d9d9d9;
-  padding: 25px;
+  font-family: Verdana;
+  padding: 15px;
   text-align: center;
 }
 
-.header a {
-  color: #595959;
-  font-family: Verdana;
-  font-size: 36px;
-  font-weight: bold;
+.header-logo {
   padding: 4px;
+}
+
+.logo {
+  color: #595959;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .header a:hover {
   color: #333333;
   transition-duration: 1.5s;
+}
+
+.header-links {
+  padding: 4px;
+}
+
+.header-link {
+  color: #595959;
+  font-weight: 500;
+  padding: 4px 8px;
 }
 
 .content {
@@ -33,7 +46,8 @@ body a {
   width: 50%;
 }
 
-.content p {
+.content-text {
+  color: #595959;
   font-family: Verdana;
   font-size: 20px;
 }
